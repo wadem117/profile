@@ -16,7 +16,7 @@ if sidebar == 'About Me':
     with col1:
         st.markdown('## Michael Wade, MS')
         st.markdown('Welcome to my page!')
-        st.write('I am currently a second-year student in the Master of Data Science'
+        st.write('I am a MS candidate in the Data Science'
                  ' Program at Vanderbilt University in Nashville, TN. In 2017, I received a '
                  ' BS in Biological Sciences from DePaul University in Chicago, IL.')
         st.write('I have a diverse background in working with data. My initial research involved '
@@ -45,6 +45,10 @@ if sidebar == 'About Me':
                  '[School for Science and Math at Vanderbilt](https://www.vanderbilt.edu/cseo-ssmv/).')
 
     with col2:
+        st.write('')
+        st.write('')
+        st.write('')
+        st.write('')
         st.image('https://raw.githubusercontent.com/wadem117/profile/main/images/headshot.jpg',
                  caption='(2019) First day at the Vanderbilt Data Science Institute', use_column_width=True)
         st.write('')
@@ -252,7 +256,7 @@ if sidebar == 'Resume':
         with col3:
             st.write('2018')
         st.write('I provided a series of lectures and corresponding activities related to statistical '
-                 'methods in STEM applications to a group of high-performing students from Metro Nashville'
+                 'methods in STEM applications to a group of high-performing students from Metro Nashville '
                  'Public Schools')
         st.write('')
 
