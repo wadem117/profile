@@ -45,13 +45,13 @@ if sidebar == 'About Me':
                  '[School for Science and Math at Vanderbilt](https://www.vanderbilt.edu/cseo-ssmv/).')
 
     with col2:
-        st.image('/Users/MichaelWade/Desktop/Personal/resume/images/headshot.jpg',
+        st.image('https://raw.githubusercontent.com/wadem117/profile/main/images/headshot.jpg',
                  caption='(2019) First day at the Vanderbilt Data Science Institute', use_column_width=True)
         st.write('')
-        st.image('/Users/MichaelWade/Desktop/Personal/resume/images/collab.jpg',
+        st.image('https://raw.githubusercontent.com/wadem117/profile/main/images/collab.jpg',
                  caption='(2016) Collecting animal behavior data at Lincoln Park Zoo', use_column_width=True)
         st.write('')
-        st.image('/Users/MichaelWade/Desktop/Personal/resume/images/shark.png',
+        st.image('https://raw.githubusercontent.com/wadem117/profile/main/images/shark.png',
                  caption='(2018) Performing a shark survey with Sam Houston State University',
                  use_column_width=True)
 
@@ -82,8 +82,8 @@ if sidebar == 'Projects':
                      ' to view our report.')
 
         with col2:
-            st.image('/Users/MichaelWade/Desktop/Personal/resume/images/cluster1.png', width=400)
-            st.image('/Users/MichaelWade/Desktop/Personal/resume/images/cluster2.png', width=400)
+            st.image('https://raw.githubusercontent.com/wadem117/profile/main/images/cluster1.png', width=400)
+            st.image('https://raw.githubusercontent.com/wadem117/profile/main/images/cluster2.png', width=400)
 
     spruce = st.beta_expander('Modeling Individual Growth of White Spruce in North America')
     with spruce:
@@ -112,8 +112,8 @@ if sidebar == 'Projects':
                      ' to view the full report.')
 
         with col2:
-            st.image('/Users/MichaelWade/Desktop/Personal/resume/images/spruce3.png', width=400)
-            st.image('/Users/MichaelWade/Desktop/Personal/resume/images/spruce4.png', width=400)
+            st.image('https://raw.githubusercontent.com/wadem117/profile/main/images/spruce3.png', width=400)
+            st.image('https://raw.githubusercontent.com/wadem117/profile/main/images/spruce4.png', width=400)
 
     dogs = st.beta_expander('Modeling Stereotypic Behaviors in African Wild Dogs')
     with dogs:
@@ -140,12 +140,12 @@ if sidebar == 'Projects':
                      ' to view the poster.')
 
         with col2:
-            st.image('/Users/MichaelWade/Desktop/Personal/resume/images/zoo.jpg', width=400)
-            st.image('/Users/MichaelWade/Desktop/Personal/resume/images/zoo2.png', width=400)
+            st.image('https://raw.githubusercontent.com/wadem117/profile/main/images/zoo.jpg', width=400)
+            st.image('https://raw.githubusercontent.com/wadem117/profile/main/images/zoo2.png', width=400)
 
     other = st.beta_expander('Other reports and presentations')
     with other:
-        st.write('* [Exploring life expectancy of zoo animals with clustering analysis]'
+        st.write('* [Exploring life expectancy of zoo animals with clustering]'
                  '(https://drive.google.com/file/d/1vgy0ri0aSSIj5ueD5xp1P3hlE7aAWGrO/view?usp=sharing)')
         st.write('* [Estuarine microorganism population survey]'
                  '(https://drive.google.com/file/d/1rE9CUmiJrzawaDJ8degsIOqWXPIg7nWs/view?usp=sharing)')
