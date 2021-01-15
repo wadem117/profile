@@ -164,8 +164,8 @@ if sidebar == 'Resume':
             st.write('**2021 (Expected)**')
 
         st.write('_Activities and Honors_:')
-        st.write('* Teaching Assistantship, Exploratory Data Analysis (2020)')
-        st.write('* Graduate student mentor (2020 - Present)')
+        st.write('* Teaching Assistantship, Exploratory Data Analysis (2020) \n'
+                 '* Graduate student mentor (2020 - Present)')
         st.write('')
 
         col1, col2, col3 = st.beta_columns(3)
@@ -177,9 +177,9 @@ if sidebar == 'Resume':
             st.write('**2017**')
 
         st.write('_Activities and Honors_:')
-        st.write("* Fellow, Dean's Undergraduate Research Assistantship (2015 - 2017)")
-        st.write("* Fellow, College of Science and Health Undergraduate Research Assistantship Program (2015 – 2017)")
-        st.write("* University Honors Program (2013 - 2017)")
+        st.write("* Fellow, Dean's Undergraduate Research Assistantship (2015 - 2017) \n"
+                 "* Fellow, College of Science and Health Undergraduate Research Assistantship Program (2015 – 2017) \n"
+                 "* University Honors Program (2013 - 2017)")
 
     experience = st.beta_expander('Professional Experience')
     with experience:
@@ -190,21 +190,21 @@ if sidebar == 'Resume':
             st.write('Raise the Roof Academy (Nashville, TN)')
         with col3:
             st.write('2020 - Present')
-        st.write('I am developing a robust database based in MySQL and front-end interface based in Python for '
-                 'Raise the Roof Academy, a non-profit community development organization based in central Uganda. '
-                 'This application is hosted using Amazon Web Services.')
+        st.write('* Build & maintain relational database in MySQL containing donor & student information \n '
+                 '* Deploy front-end application with Python to search and update the database in real time \n '
+                 '* Host database and application using Amazon Web Services')
         st.write('')
 
         col1, col2, col3 = st.beta_columns(3)
         with col1:
-            st.write('**Graduate Teaching Assistant**')
+            st.write('**Graduate Teaching Assistant - Exploratory Data Analysis**')
         with col2:
             st.write('Vanderbilt Data Science Institute (Nashville, TN)')
         with col3:
             st.write('2020')
-        st.write('I served as a teaching assistant for Exploratory Data Analysis, a graduate-level course offered by '
-                 'the Data Science Institute at Vanderbilt University. My responsibilities included co-managing the '
-                 'course Github repository, grading assignments, and providing academic support for students.')
+        st.write('* Co-managed the course Github repository \n '
+                 '* Created assignments for clustering and principal components analysis \n'
+                 '* Provided academic support for students')
         st.write('')
 
         col1, col2, col3 = st.beta_columns(3)
@@ -214,10 +214,8 @@ if sidebar == 'Resume':
             st.write('Vanderbilt University Medical Center (Nashville, TN)')
         with col3:
             st.write('2018 - 2020')
-        st.write("I served as the editorial assistant for VUMC's Department of Biostatistics and Center for "
-                 " Quantitative Sciences. This role involved reviewing and editing research manuscripts prior "
-                 " to publication, managing grant materials, and providing analytical summaries of events and "
-                 " department offerings.")
+        st.write("* Reviewed & updated research manuscripts before publication \n "
+                 "* Created & distributed analytical reports of department courses & events")
         st.write('')
 
         col1, col2, col3 = st.beta_columns(3)
@@ -227,10 +225,9 @@ if sidebar == 'Resume':
             st.write('DePaul University (Chicago, IL)')
         with col3:
             st.write('2015 - 2017')
-        st.write('I completed an independent research project which determined effects of local and distant '
-                 'temperature changes on the growth of White Spruce in North America. This project involved data '
-                 'collection and cleaning, data visualization, statistical modeling, and communicating results at '
-                 'professional conferences.')
+        st.write('* Performed regression analysis and model selection for independent population study \n'
+                 '* Created data visualizations and provided presentations at several research conferences \n'
+                 '* Collaborated with faculty & other researchers to plan studies and create reports')
         st.write('')
 
         col1, col2, col3 = st.beta_columns(3)
@@ -240,9 +237,10 @@ if sidebar == 'Resume':
             st.write('Lincoln Park Zoo (Chicago, IL)')
         with col3:
             st.write('2016')
-        st.write('I collected, analyzed, visualized, and presented animal behavior data as part of the Lincoln '
-                 'Park Zoo Conservation & Science ZooMonitor Project. I also managed a team of volunteers who '
-                 'contributed to a local animal behavior database.')
+        st.write('* Managed database & created analytical reports for staff within LPZ Conservation & Science \n'
+                 '* Performed collaborative study of behavioral outcomes due to environmental conditions \n'
+                 '* Performed PCA and regression analysis to determine contributors to '
+                 'negative behavior in individuals')
 
     service = st.beta_expander('Service')
     with service:
@@ -272,7 +270,7 @@ if sidebar == 'Resume':
                  "need in the face of expanding human impact on our climate. I served as the organization's "
                  "founding president from 2016-2017.")
 
-    skills = st.beta_expander('Technical skills')
+    skills = st.beta_expander('Proficiencies')
     with skills:
         st.write('**Programming**')
         st.write('Python, R')
