@@ -82,7 +82,7 @@ if sidebar == 'Projects':
                      'with a higher GDP. ')
             st.write('We presented our findings to an interdisciplinary audience'
                      ' within the Vanderbilt community and beyond.')
-            st.write('[Click here](https://drive.google.com/file/d/1rE9CUmiJrzawaDJ8degsIOqWXPIg7nWs/view?usp=sharing)'
+            st.write('[Click here](https://drive.google.com/file/d/1TOuspVDBxz8BGMqnYNMChCZkxH-pamsa/view?usp=sharing)'
                      ' to view our report.')
 
         with col2:
